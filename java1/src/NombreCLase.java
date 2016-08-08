@@ -1,13 +1,20 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
-/**
- *
- * @author CETECOM
- */
 public class NombreCLase {
+    private String nombreAtributo;
+    
+    public NombreCLase(){}
+    
+    public String getNombreAtributo(){
+        return this.nombreAtributo;
+    }
+    
+    public void setNombreAtributo(String nombreAtributo){
+        this.nombreAtributo = nombreAtributo;
+    }
+    
+    public void imprimir(){
+        System.out.println("metodo imprimir los atributos");
+    }
+    
     
 }
